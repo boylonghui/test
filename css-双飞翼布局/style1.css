@@ -1,0 +1,28 @@
+.box {
+    float: left;
+    height: 100px;
+    width: 100%;
+}
+.center {
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.left {
+    float: left;
+    height: 100px;
+    width: 200px;
+    margin-left: -100%;
+    background-color: red;
+}
+.right {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    background-color: green;
+}
+body {
+    min-width: 400px;
+}

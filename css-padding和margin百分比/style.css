@@ -1,0 +1,9 @@
+.father {
+    width: 200px;
+}
+.son {
+    width: 100px;
+    padding: 50%;
+    margin: 50%;
+    background-color: red;
+}

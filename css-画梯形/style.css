@@ -1,0 +1,19 @@
+/* .father {
+    width: 100px;
+    height: 0;
+    border-top: 100px solid red;
+    border-right: 30px solid transparent;
+} */
+/* .father {
+    width: 100px;
+    height: 0;
+    border-width: 100px 30px 0;
+    border-color: red transparent transparent;
+    border-style: solid solid none;
+} */
+.father {
+    width: 100px;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-right: 30px solid transparent;
+}
