@@ -24,3 +24,7 @@ setTimeout(() => {
 setTimeout(() => {
     console.log(6)
 }, 1000)
+
+setTimeout(() => {
+    console.log(111)
+})
