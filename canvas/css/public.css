@@ -1,0 +1,118 @@
+/*引入字体*/
+/*@charset "utf-8";*/
+/*@font-face{*/
+/*font-family:'fons';*/
+/*src: url('https://media.elloworld.cn/layout/fonts.TTF')format('truetype');*/
+/*}*/
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {margin:0;padding:0}
+a,img,input {border:none;}
+a {text-decoration:none;}
+ul,li{list-style: none}
+html,body{width: 100%;height: 100%;overflow: hidden;font-size:0.3rem;text-align: center;background: #ffffff;font-family:"Microsoft YaHei",Arial;
+    -webkit-overflow-scrolling: touch;-webkit-appearance:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout:none;  /*系统默认菜单被禁用*/-webkit-user-select:none; /*webkit浏览器*/-webkit-tap-highlight-color: transparent; /* For some Androids */
+    /*微信IOS禁止放大*/
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+}
+.disabled{pointer-events: none;}
+.fixed{position: fixed;left: 0;top: 0;}
+img{vertical-align: middle;pointer-events: none;}
+/*musicBtn GO*/
+.musicBtn {position: absolute;width:0.55rem;height:0.55rem;right:0.15rem;top:0.3rem;background: url(https://workathome.elloworld.com/Public/img//music_on.png?v=0.1) no-repeat center center;background-size:contain;z-index: 5;}
+.musics_am{-webkit-animation: rotates 2s linear 0s infinite;}
+
+/*musicBtn END*/
+
+/*loading go*/
+#loading{position: absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.3);z-index: 9999;}
+#loading div{width:0.9rem;height:0.9rem;position: absolute;left:50%;top:50%;margin:-0.45rem 0 0 -0.45rem;
+    background: url(https://workathome.elloworld.com/Public/img//loading.png?v=0.1) no-repeat center center;background-size: contain;
+    -webkit-animation: rotates 2s linear 0s infinite;
+}
+/*loading end*/
+.pages{position: absolute;left:0;width:100%;height:100%;top: 0;z-index: 2;}
+.imgposition{position: absolute;left:0;width:100%;height:100%;top: 0;}
+.pageX{width:100%;height:100%; min-height:14.96rem; position: absolute;top: 50%;left: 0; -webkit-transform: translateY(-50%);}
+.page1029{width: 100%;height: 12.06rem;position: absolute;left: 0;top: 50%;margin-top: -6.03rem;}
+#shuping {position: fixed;left:0;width:100%;height:100%;top: 0;background: url("https://workathome.elloworld.com/Public/img//heng_bg.jpg?v=0.1")no-repeat; background-size: 100% 100%;display: none;z-index: 99;}
+#shuping img{width: 1.5rem!important;}
+.hide{display: none;}
+.xy50{position: absolute;left: 50%;top: 50%;-webkit-transform: translate(-50%,-50%);}
+.disabled{pointer-events:none;}
+.opacity{opacity: 0;}
+#wrapper{position:relative;width:100%;min-width: 320px;max-width: 7.5rem;height:100%;margin: 0 auto;}
+
+/*动画*/
+@-webkit-keyframes rotates{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes translateX {
+    0%{-webkit-transform: translateX(0%);}
+    100%{-webkit-transform: translateX(100%);}
+}
+
+@-webkit-keyframes translateX10 {
+    0%{-webkit-transform: translateX(0);}
+    100%{-webkit-transform: translateX(-15rem);}
+}
+
+@-webkit-keyframes arrowY {
+    0%{-webkit-transform: translateY(0);}
+    100%{-webkit-transform: translateY(-0.2rem);}
+}
+
+@-webkit-keyframes arrowY_ {
+    0%{-webkit-transform: translateY(0);}
+    100%{-webkit-transform: translateY(0.3rem);}
+}
+@-webkit-keyframes arrowY_8 {
+    0%{-webkit-transform: translateY(8rem);}
+    100%{-webkit-transform: translateY(0);}
+}
+
+@-webkit-keyframes arrowXl {
+    0%{-webkit-transform: translateX(0);}
+    100%{-webkit-transform: translateX(-0.1rem);}
+}
+@-webkit-keyframes arrowXR {
+    0%{-webkit-transform: translateX(-0.1rem);}
+    100%{-webkit-transform: translateX(0);}
+}
+
+@-webkit-keyframes  rotate20{
+    0%{-webkit-transform: rotate(0deg)}
+    100%{-webkit-transform: rotate(20deg)}
+}
+
+
+@-webkit-keyframes  rotate45{
+    0%{-webkit-transform: rotate(0deg)}
+    100%{-webkit-transform: rotate(45deg)}
+}
+
+@-webkit-keyframes  rotate5{
+    0%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(5deg)}
+}
+@-webkit-keyframes Scale1 {
+    0%{-webkit-transform: scale(0)}
+    100%{-webkit-transform: scale(1)}
+}
+
+
+@-webkit-keyframes ScaleFind {
+    0%,30%{-webkit-transform: scale(0);opacity: 0;}
+    50%{opacity: 1;}
+    60%{-webkit-transform: scale(1);opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@-webkit-keyframes UpFind {
+    0%,30%{-webkit-transform: translateY(1rem)scale(0);opacity: 0;}
+    85%{-webkit-transform: translateY(0)scale(1);opacity: 1;}
+    100%{opacity: 0;}
+}

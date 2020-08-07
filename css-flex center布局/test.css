@@ -1,0 +1,14 @@
+html {
+    font-size: 38.3333px;
+}
+.box {
+    height: 1.07rem;
+    line-height: 1.07rem;
+    background: green;
+    font-size: 16px;
+    text-align: center;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
