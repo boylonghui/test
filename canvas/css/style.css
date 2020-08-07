@@ -1,0 +1,104 @@
+
+.loadpage{background: #0052d9;background-size: 100%;}
+.load_ico{background:url("https://workathome.elloworld.com/Public/img//load_ico2.png?v=0.11")no-repeat;background-size: 100%; width: 3.03rem;height: 0.33rem;position: relative;margin: 0.2rem auto;}
+.load_ico2{width: 0%;height: 100%;position: absolute;left: 0;top: 0;overflow: hidden;}
+.load_ico2 img{position: absolute;left: 0;top: 0;width: 3.03rem!important;}
+.load_tip{width: 2.42rem!important;}
+.loadnum{font-size: 0.34rem;font-weight: bold;color: #fff;}
+
+.homepage{background: url("https://workathome.elloworld.com/Public/img//bg.jpg?v=0.11")no-repeat;background-size: 100%;}
+.home_tit{position: absolute;left: 50%;margin-left: -3.11rem;top: 2.21rem;}
+.home_tits{-webkit-animation: fadeInDown 0.5s linear both;}
+.home_ico1{position: absolute;left: 0;top:0;-webkit-animation: fadeIn 0.5s 0.5s linear both;}
+/*.home_ico1 img{-webkit-animation: rotate5 1s linear infinite alternate;-webkit-transform-origin: 35% 50%}*/
+.home_ico2{position: absolute;left: 0.6rem;top: 3.29rem;-webkit-animation: fadeIn 0.5s 0.5s linear both;}
+/*.home_ico2 img{-webkit-animation: translateX10 25s linear infinite;}*/
+.home_ico3{position: absolute;left: 0.6rem;top: 3.19rem;-webkit-animation: fadeIn 0.5s 0.5s linear both;}
+/*.home_ico3 img{-webkit-animation: arrowX 2s linear infinite alternate;}*/
+.home_tit2{width: 100%;position: absolute;left: 0;top:0;}
+.home_tit2{-webkit-animation: fadeInUp 0.5s linear both;}
+
+.home_personage{width: 100%;height: 1.11rem; position: absolute;left: 0; top: 8.48rem;text-align: center;}
+.home_personage>div{position: relative;width:1.20rem;height: 1.19rem; margin: 0 0.2rem;display: inline-block;vertical-align: top;}
+.home_personage>div:nth-child(1){-webkit-animation: fadeInLeft 0.5s 0.5s linear both;}
+.home_personage>div:nth-child(2){-webkit-animation: fadeInRight 0.5s 0.5s linear both;}
+.home_sex_b{position: absolute;left: 0.6rem;top: -0.9rem;}
+.home_sex_g{position: absolute;left: -1.2rem;top: -0.9rem;}
+.home_sex_av{-webkit-animation: bounceIn 0.5s linear both;position: relative;z-index: -1;}
+.home_btn{background: url("https://workathome.elloworld.com/Public/img//home_btn.png?v=0.11")no-repeat;background-size: 100%;width: 3.07rem;height: 0.9rem;position: absolute;left: 50%;margin-left: -1.535rem; top: 10.3rem;}
+.home_btn{-webkit-animation: pulse 0.7s linear infinite;}
+.home_logo{position: absolute;left: 50%;margin-left: -2.06rem;top: 12.25rem;-webkit-animation:fadeInUp 0.5s 1s linear both; }
+.home_sextip{position: absolute;left: 50%;margin-left: -1.32rem;top: 10.3rem;}
+.home_sextip{-webkit-animation: bounceIn 0.5s 0.8s linear both;}
+.home_sextip img{-webkit-animation: pulse 0.5s 0.8s linear infinite;}
+.home_sex_txt{position: absolute;left: 50%;-webkit-transform: translateX(-50%);bottom: -0.15rem;}
+
+
+#canvas{width: 100%;position: absolute;left: 0;top: 0;}
+.game_tipbox{background: rgba(0,0,0,0.6);}
+.game_tip1{position: absolute;left: 1.1rem;top: 0.35rem;-webkit-animation: fadeInRight 0.6s 1.2s linear both;}
+.game_tip2{position: absolute;left: 1.5rem;bottom: 2.3rem;-webkit-animation: fadeInDown 0.6s linear both;}
+.game_tip2 img{-webkit-animation: fadeOut 1s 3s linear both;}
+.game_tip3{position: absolute;right: 2.2rem;bottom: 4.45rem;-webkit-animation: fadeInLeft 0.6s linear both;}
+.game_menubox{width: 100%;position: absolute;left: 0; bottom: 0;z-index: 3;-webkit-transition: all 0.5s linear;}
+.game_menutip{position: absolute;left:2%;top: -1rem;-webkit-animation: fadeInDown 0.6s  linear both;}
+.game_menutip img{-webkit-animation: fadeOut 1s 3s linear both;}
+.game_Return{position: absolute;left: 0.4rem;top: 0.3rem;background: url("https://workathome.elloworld.com/Public/img//game_Return.png?v=0.11")no-repeat;background-size: 100%;width: 0.6rem;height: 0.59rem;z-index: 1;}
+.game_ok{position: absolute;right: 0;top: 0;z-index: 2;-webkit-animation: fadeInRight 1s linear both;}
+.game_menu{background: url("https://workathome.elloworld.com/Public/img//game_menu.png?v=0.11")no-repeat;background-size: 100%;width: 7.46rem;height: 1.01rem;position: relative;}
+.gameMenu_btn{width: 6.6rem;height: 100%;position: relative;}
+.gameMenu_btn>div{position: absolute;left: 0;top: -0.1rem;z-index: 2;}
+.gameMenu_btn>div:nth-child(1){left: 0.02rem;}
+.gameMenu_btn>div:nth-child(2){left: 1.02rem;}
+.gameMenu_btn>div:nth-child(3){left: 2.06rem;}
+.gameMenu_btn>div:nth-child(4){left: 3.1rem;}
+.gameMenu_btn>div:nth-child(5){left: 4.24rem;}
+.gameMenu_btn>div:nth-child(6){left: 5.34rem;}
+.game_ico{position: absolute;padding:0.2rem 0.3rem;right: 0;top: 0.15rem;-webkit-transition: all 0.2s linear;-webkit-transform: rotate(180deg);}
+.gametip img{position: absolute;left: 50%;margin-left: -1.42rem;top: -1rem;-webkit-animation: bounceIn 0.5s linear both;}
+.gameicobox{width: 100%;height: 100%;position:relative;left: 0;top: 0;}
+.game_icocont{background: url("https://workathome.elloworld.com/Public/img//game_menu_bg.png?v=0.11")no-repeat;background-size: 100%;width: 100%;height: 2.22rem;position: relative;margin-top: -0.03rem;}
+.game_icobox,.game_icobox2{width: 98%;overflow: hidden; overflow-x: auto;white-space:nowrap; text-align: left;margin-left: 1%;position: relative;}
+.game_icobox div{width: 1.6rem;height: 1.6rem;border-radius: 50%;position: relative;display: inline-block;background: #d4eef8;margin: 0.3rem 0.08rem;}
+.game_icobox div img{width: 1.6rem!important;}
+.game_Active:after{content:"";background: url("https://workathome.elloworld.com/Public/img//active_btn.png?v=0.11")no-repeat;background-size:100%;width: 0.36rem;height: 0.36rem;position: absolute;right: 0.15rem;top: 0.2rem;}
+.game_icobox2 div{display: inline-block;}
+.game_icobox2 div div{width: 1.6rem;height: 1.6rem;;border-radius: 50%;position: relative;display: inline-block;margin: 0.3rem 0.08rem;}
+.game_icobox2 div img{width: 1.6rem!important;}
+.game_hadebtn{width: 1.6rem;height: 1.6rem;border-radius: 50%;position: relative;display: inline-block;margin: 0.3rem 0.08rem;}
+.Scene_box{background: url("https://workathome.elloworld.com/Public/img//Scene_bg.png?v=0.11")no-repeat;background-size: 100%;width: 7.46rem;height: 3.28rem;position: absolute;left: 0.02rem;bottom: 0;z-index: 5;}
+.Scene_box .game_arrowL,.Scene_box .game_arrowR{bottom: 30%;}
+
+.Scene_ico{width: 98%;overflow: hidden; overflow-x: auto;white-space:nowrap; text-align: left;margin-left: 1%;margin-top: 1.3rem;}
+.Scene_ico div{display: inline-block;width: 2.16rem;height: 1.58rem;position: relative;margin-top: 0.1rem;}
+.Scene_ico img{width: 2.05rem;}
+.Scene_ico .game_Active:before{content: '';background: url("https://workathome.elloworld.com/Public/img//scene_active.png?v=0.11")no-repeat;background-size: 100%;width: 2.16rem;height: 1.45rem;position: absolute;
+    left: 0;top: -0.02rem;z-index: -1;}
+.Scene_ok{position: absolute;right: -0.02rem;top: -1.4rem;z-index: 2;}
+.game_arrowL{background: url("https://workathome.elloworld.com/Public/img//game_arrow_l.png?v=0.11")no-repeat;background-size: 100%;width: 0.38rem;height: 0.4rem;position: absolute;left: 0;bottom: 40%;z-index: 2;
+    -webkit-animation: arrowXl 1s linear infinite alternate;
+}
+.game_arrowR{;background: url("https://workathome.elloworld.com/Public/img//game_arrow_r.png?v=0.11")no-repeat;background-size: 100%;width: 0.38rem;height: 0.4rem; position: absolute;right: 0;bottom: 40%;z-index: 2;
+    -webkit-animation: arrowXR 1s linear infinite alternate;
+}
+
+
+.posterbox .pageX{background: url("https://workathome.elloworld.com/Public/img//end_bg.jpg")no-repeat;background-size: 100%;}
+.end_logo{position: absolute;left: 3.61rem;top: 3%;z-index: 3;}
+.Again_btn{position: absolute;left: 0.25rem;top: 2%; z-index: 4;}
+.poster_{background: url("https://workathome.elloworld.com/Public/img//poster_bg1.jpg")no-repeat;background-size: 100%;width: 6.78rem;height: 11.4rem;position: absolute;left:50%;top: 1.54rem;margin-left: -3.39rem;}
+.long_btn{position: absolute;left: 50%;margin-left: -1.25rem;bottom: 10%;}
+.end_link{position: absolute;left: 50%;margin-left: -1.83rem;bottom:2%;z-index: 4;}
+.postre_src{width: 6.21rem;}
+.posterimg{z-index: 3;opacity: 0;pointer-events: auto;}
+
+.Ending{background: #79cbfb;overflow-y: auto;}
+.Ending>div{width: 100%;position: relative;}
+.Ending img{pointer-events: auto;position: relative;}
+.End_Return{position: fixed!important;left: 0.1rem;top: 0.3rem;background: url("https://workathome.elloworld.com/Public/img//game_Return.png?v=0.11")no-repeat;background-size: 100%;width: 0.8rem!important;height: 0.8rem;z-index: 3;}
+.End_btns{position: absolute;left: 0;top: 0;}
+.Ending_1 .End_btns{left: 0.47rem;top:16.82rem;}
+.Ending_2 .End_btns{left: 3.23rem;top:6rem;}
+.Ending_3 .End_btns{left: 0.44rem;top:8.2rem;}
+.Ending_4 .End_btns{left: 3.23rem;top:5.7rem;}
+.Ending_5 .End_btns{left: 0.47rem;top:5.9rem;}
