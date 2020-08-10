@@ -68,7 +68,7 @@ function resolveP(P2, x, resolve, reject) {
     }
 }
 P.prototype.then = function (onFulfilled, onRjected) {
-    //成功和失败默认不穿给一个函数
+    //成功和失败默认不传，给一个函数
     onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : function (value) {
         return value;
     }
